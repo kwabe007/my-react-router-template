@@ -4,7 +4,7 @@ A modern, production-ready template for building full-stack React applications u
 
 Quick setup:
 ```shell
-pnpx create-react-router@latest --template kwabe007/my-reacy-router-template
+pnpx create-react-router@latest --template kwabe007/my-react-router-template
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
