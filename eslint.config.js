@@ -15,8 +15,8 @@ export default [
   eslintJs.configs.recommended,
   {
     rules: {
-      "no-empty-pattern": "warn",
-    }
+      'no-empty-pattern': 'warn',
+    },
   },
   // React configuration
   {
