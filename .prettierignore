@@ -1,1 +1,5 @@
 pnpm-lock.yaml
+
+# Prevent formatting components retreived from shadcn/ui library, that way we can still run the shadcn diff command to
+# check for component updates.
+/app/components/ui
