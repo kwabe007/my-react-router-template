@@ -7,3 +7,5 @@
 
 # Jetbrains IDE project files
 /.idea
+
+.env

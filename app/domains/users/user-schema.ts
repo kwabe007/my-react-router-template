@@ -23,10 +23,3 @@ export const UserWithPasswordSchema = UserSchema.extend({
   password: PasswordSchema,
 })
 export type UserWithPassword = z.infer<typeof UserWithPasswordSchema>
-
-export const UserInputSchema = UserSchema.pick({
-  email: true,
-}).extend({
-  password: z.string().min(8, 'Password must be at least 8 characters long.'),
-})
-export type UserInput = z.infer<typeof UserInputSchema>

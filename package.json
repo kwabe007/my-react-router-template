@@ -11,11 +11,13 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@iconify/react": "^5.2.0",
     "@paralect/node-mongo": "^3.2.0",
     "@radix-ui/react-slot": "^1.1.1",
     "@react-router/node": "*",
     "@react-router/serve": "*",
     "@rvf/react-router": "^7.0.1",
+    "@rvf/zod": "^7.0.1",
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
