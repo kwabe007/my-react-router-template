@@ -11,13 +11,19 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
     "@react-router/node": "*",
     "@react-router/serve": "*",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "isbot": "^5.1.21",
+    "lucide-react": "^0.473.0",
     "npm-run-all": "^4.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "*"
+    "react-router": "*",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
