@@ -4,10 +4,19 @@ import type { Route } from './+types/root'
 import stylesheet from './app.css?url'
 import fonts from './fonts.css?url'
 
-export const links: Route.LinksFunction = () => [
-  { rel: 'stylesheet', href: stylesheet },
-  { rel: 'stylesheet', href: fonts },
-]
+export function links() {
+  return [
+    { rel: 'stylesheet', href: stylesheet },
+    { rel: 'stylesheet', href: fonts },
+  ]
+}
+
+export function meta() {
+  return [
+    { title: 'New React Router App' },
+    { name: 'description', content: 'Welcome to React Router!' },
+  ]
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
